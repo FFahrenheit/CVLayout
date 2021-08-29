@@ -87,6 +87,18 @@ body {
 	padding-left: 20px;
 }
 
+.border-animation-black {
+	transition: border-left 0.3s;
+	transition: padding-left 0.3s;
+}
+
+.border-animation-black:hover {
+	transition: border-left 0.3s;
+	transition: padding-left 0.3s;
+	border-left: 5px solid black;
+	padding-left: 20px;
+}
+
 .list > li,
 h5 {
 	padding: 5px 0px 5px 40px;
@@ -119,7 +131,7 @@ h5 {
 }
 
 .name {
-	font-size: 80px;
+	font-size: 50px;
 	font-weight: bolder;
 	/* border-left: 10px solid white; */
 	transition: border-left 0.3s;
@@ -140,4 +152,46 @@ h5 {
 	border-top: 3px solid whitesmoke;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.card-horizontal {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.card-icon{
+	max-width: 100px;
+}
+
+.card-icon > img{
+	width: 100px;
+	height: auto;
+}
+
+.hover-opacity{
+	display: flex;
+	align-items: center;
+}
+
+.hover-opacity :hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.repository{
+	color: rgb(75, 75, 75);
+	font-size: 20px;
+}
+
+.repository:hover{
+	color: rgb(0, 0, 0) !important;
+	font-weight: bold;
+}
+
+.card-body{
+	color: black;
+}
+
+.footer{
+	padding-top: 30px;
 }
