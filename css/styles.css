@@ -1,3 +1,62 @@
-body{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
+html, body{
+	height: 100%;
+}
+
+body {
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.sidebar-content{
+	padding-top: 10px;
+	background-color: rgb(224, 224, 224);
+	min-height: 100%;	
+}
+
+.photo{
+	max-height: 130px;
+}
+
+.photo>img{
+	display: block;
+	margin: auto;
+	max-height: 130px;
+	border-radius: 50%;
+}
+
+.legend{
+	font-style: italic;
+	color: rgb(70, 70, 70);
+	font-size: 14px;
+}
+
+.list {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list::first-line {
+    color: rgb(0, 0, 0);
+}
+
+.list> li, h5 {
+    padding: 5px 0px 5px 40px;
+}
+
+.selected-li{
+	font-weight: bolder;
+}
+
+.list>li:hover {
+	transition: background-color 0.3s;
+	transition: border-left 0.3s;
+    background-color: rgb(255, 255, 255);
+    border-left: 5px solid rgb(110, 110, 110);
+    color: rgb(10, 0, 0);
+    font-weight: bolder;
+    padding-left: 35px;
+}
+
+.main-content{
+	background-color: rgb(0, 0, 0);
 }
