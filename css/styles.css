@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
 	height: 100%;
 }
 
@@ -7,92 +8,117 @@ body {
 	background-color: rgb(10, 10, 10);
 }
 
-.sidebar-content{
+.sidebar-content {
 	padding-top: 10px;
 	background-color: rgb(224, 224, 224);
-	min-height: 100%;	
+	min-height: 100%;
 }
 
-.photo{
+.photo {
 	max-height: 130px;
 }
 
-.photo>img{
+.photo > img {
 	display: block;
 	margin: auto;
 	max-height: 130px;
 	border-radius: 50%;
 }
 
-.photography{
+.photography {
 	max-height: 200px;
 }
 
-.photography>img{
+.photography > img {
 	max-height: 500px;
 	display: block;
 	margin: auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px #111111;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px #111111;
 }
 
-.social{
+.social {
 	color: rgb(78, 78, 78);
 	text-decoration: none;
 	font-size: 25px;
 }
 
-.social:hover{
+.social:hover {
 	color: black;
 	text-decoration: none;
 }
 
-.legend{
+.legend {
 	font-style: italic;
 	color: rgb(53, 53, 53);
 	font-size: 14px;
 }
 
 .list {
-    color: rgb(0, 0, 0);
-    list-style: none;
-    padding-left: 0px;
+	color: rgb(0, 0, 0);
+	list-style: none;
+	padding-left: 0px;
 }
 
-.list::first-line {
-    color: rgb(0, 0, 0);
+.items {
+	list-style: none;
+	padding-left: 80px;
+	font-size: 22px;
 }
 
-.list> li, h5 {
-    padding: 5px 0px 5px 40px;
+.items li::before {
+	content: "\2022";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
 }
 
-.selected-li{
+.border-animation {
+	transition: border-left 0.3s;
+	transition: padding-left 0.3s;
+}
+
+.border-animation:hover {
+	transition: border-left 0.3s;
+	transition: padding-left 0.3s;
+	border-left: 5px solid white;
+	padding-left: 20px;
+}
+
+.list > li,
+h5 {
+	padding: 5px 0px 5px 40px;
+}
+
+.selected-li {
 	font-weight: bolder;
 }
 
-.list a{
+.list a {
 	text-decoration: none;
-	color: rgb(10,0,0);
+	color: rgb(10, 0, 0);
+	display: block;
 }
 
-.list>li:hover {
+.list > li:hover {
 	cursor: pointer;
 	transition: background-color 0.3s;
 	transition: border-left 0.3s;
-    background-color: rgb(255, 255, 255);
-    border-left: 5px solid rgb(110, 110, 110);
-    color: rgb(10, 0, 0);
-    font-weight: bolder;
-    padding-left: 35px;
+	background-color: rgb(255, 255, 255);
+	border-left: 5px solid rgb(110, 110, 110);
+	color: rgb(10, 0, 0);
+	font-weight: bolder;
+	padding-left: 35px;
 }
 
-.main-content{
+.main-content {
 	background-color: rgb(10, 10, 10);
 	color: white;
 }
 
-.name{
+.name {
 	font-size: 80px;
 	font-weight: bolder;
 	/* border-left: 10px solid white; */
@@ -100,10 +126,18 @@ body {
 	transition: padding-left 0.3s;
 }
 
-.name:hover{
+.name:hover {
 	padding-left: 20px;
 	border-left: 10px solid white;
 	padding-left: 30px;
 	transition: border-left 0.3s;
 	transition: padding-left 0.3s;
+}
+
+.separator {
+	padding-bottom: 30px;
+	margin: auto;
+	border-top: 3px solid whitesmoke;
+	margin-left: 10px;
+	margin-right: 10px;
 }
