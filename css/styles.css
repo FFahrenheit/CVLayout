@@ -180,7 +180,7 @@ h5 {
 
 .repository{
 	color: rgb(75, 75, 75);
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .repository:hover{
@@ -194,4 +194,26 @@ h5 {
 
 .footer{
 	padding-top: 30px;
+}
+
+.skill{
+	font-size: 20px;
+	color: white;
+	background-color: transparent;
+}
+
+.data{
+	color: white;
+}
+
+.progress-bar{
+	background-color: gray;
+}
+
+.quote h5{
+	font-style: italic;
+}
+
+.quote h6{
+	text-align: right;
 }
