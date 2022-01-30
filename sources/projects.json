@@ -1,15 +1,39 @@
 [
     {
+        "name": "NodeMCU Blinking LED",
+        "year": "2021",
+        "description": [
+            "ESP8266 server that changes blinking LED times and brightness via webpage",
+            "ESP8266 / HTML / JS / C++ (Arduino)"
+        ],
+        "image": "assets/projects/node.png",
+        "repository": "https://github.com/FFahrenheit/NodeMCU_Server",
+        "video":"https://www.youtube.com/watch?v=kSLAsdLzskg"
+    },
+    {
+        "name": "NuestrasPropuestas",
+        "year": "2021",
+        "description": [
+            "Prototype of an ONG's web law initiative search tool",
+            "Python / Tesseract OCR / Selenium / HTML + JS + CSS"
+        ],
+        "image": "assets/projects/propuestas.png",
+        "repository": "https://github.com/FFahrenheit/NuestrasPropuestas",
+        "url":"https://ffahrenheit.github.io/NuestrasPropuestas/"
+    },
+    {
         "name": "Spatiphy",
+        "year": "2021",
         "description": [
             "IoT Web app to measure environment properties over time with a microntroller and displayed on an app",
-            "ESP8266 / C++ / Node.js / HTML + CSS / MongoDB"
+            "ESP8266 / C++ / Node.js / JavaScript / HTML + CSS / MongoDB"
         ],
         "image": "assets/projects/spatiphy.png",
         "repository": "https://github.com/FFahrenheit/spathiphy"
     },
     {
         "name": "SubstanceSoft",
+        "year": "2018-2019",
         "description": [
             "Web Point of Sale System with data analysis tools and hardware implementations",
             "PHP / Javascript / MySQL / Electron.js / Android SDK / C++"
@@ -19,6 +43,7 @@
     },
     {
         "name": "SpoilerAlert",
+        "year": "2019",
         "description": [
             "Social network for movie fans where you can share and discover movies with your friends",
             "PHP / Javascript / MySQL / OMDB API"
@@ -28,6 +53,7 @@
     },
     {
         "name": "KioskoTuristico",
+        "year": "2021",
         "description": [
             "Route planner project using graph algorithms",
             "Angular / Node.js / MySQL"
@@ -36,7 +62,8 @@
         "repository": "https://github.com/FFahrenheit/KioskoTuristico"
     },
     {
-        "name": "SubstanceSoft",
+        "name": "POSBE",
+        "year": "2020",
         "description": [
             "Mobile Point of Sale system",
             "Java / PHP / MySQL"
