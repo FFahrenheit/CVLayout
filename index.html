@@ -97,9 +97,9 @@
                 <div class="row p-3">
                     <div class="col-md-8">
                         <h4>
-                            My name is Ismael Ivan Lopez Murillo. I'm a 21 years old mexican student.<br><br>
+                            My name is Ismael Ivan Lopez Murillo. I'm a <span id="age"></span> years old mexican student.<br><br>
                             I'm particullary interested in computer science and software development focused on
-                            optimization, data science,
+                            optimization, data science, embedded systems, 
                             agile methodologies and artificial inteligence.<br><br>
                             I love learning new technologies and experience with
                             everything possible. Problem solving with engineering and exact sciences is what I love
@@ -149,5 +149,20 @@
         crossorigin="anonymous"></script>
     <script src="js/responsive.js"></script>
 </body>
+
+<script>
+    (()=>{
+        const birthday = new Date('10/03/1999');
+        const today = new Date();
+        let age = today.getFullYear() - birthday.getFullYear();
+
+        if((today.getMonth() < birthday.getMonth()) || 
+        (today.getMonth() == birthday.getMonth() && today.getDate() < birthday.getDate())){
+            age--;
+        }
+
+        document.getElementById('age').innerHTML = age;
+    })();
+</script>
 
 </html>

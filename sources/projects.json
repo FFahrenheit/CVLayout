@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Spatiphy",
+        "description": [
+            "IoT Web app to measure environment properties over time with a microntroller and displayed on an app",
+            "ESP8266 / C++ / Node.js / HTML + CSS / MongoDB"
+        ],
+        "image": "assets/projects/spatiphy.png",
+        "repository": "https://github.com/FFahrenheit/spathiphy"
+    },
+    {
+        "name": "SubstanceSoft",
+        "description": [
+            "Web Point of Sale System with data analysis tools and hardware implementations",
+            "PHP / Javascript / MySQL / Electron.js / Android SDK / C++"
+        ],
+        "image": "assets/projects/substance.png",
+        "repository": "https://github.com/FFahrenheit/SubstanceSoft"
+    },
+    {
+        "name": "SpoilerAlert",
+        "description": [
+            "Social network for movie fans where you can share and discover movies with your friends",
+            "PHP / Javascript / MySQL / OMDB API"
+        ],
+        "image": "assets/projects/spoiler.png",
+        "repository": "https://github.com/FFahrenheit/SpoilerAlert"
+    },
+    {
+        "name": "KioskoTuristico",
+        "description": [
+            "Route planner project using graph algorithms",
+            "Angular / Node.js / MySQL"
+        ],
+        "image": "assets/projects/kiosko.png",
+        "repository": "https://github.com/FFahrenheit/KioskoTuristico"
+    },
+    {
+        "name": "SubstanceSoft",
+        "description": [
+            "Mobile Point of Sale system",
+            "Java / PHP / MySQL"
+        ],
+        "image": "assets/projects/posbe.jpg",
+        "repository": "https://github.com/FFahrenheit/POSystem"
+    }
+]
